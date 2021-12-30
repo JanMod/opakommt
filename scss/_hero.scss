@@ -1,0 +1,56 @@
+@import "./variables";
+
+.hero {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1500px;
+  .hero-content,
+  .hero-image {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    height: 70vh;
+    width: 100%;
+
+    img {
+      height: 70%;
+    }
+  }
+  .hero-text {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+  }
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.25rem;
+  }
+
+  .opa {
+    font-family: "comic";
+    font-size: 6rem;
+    color: $primary;
+  }
+
+  @media screen and (max-width: 770px) {
+    .hero-image {
+      justify-content: center;
+      align-items: start;
+      img {
+        height: 50%;
+      }
+    }
+
+    .hero-text {
+      position: absolute;
+      left: 0%;
+      width: 100%;
+      text-align: center;
+      top: 50%;
+    }
+  }
+}

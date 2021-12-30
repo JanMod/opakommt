@@ -1,0 +1,19 @@
+@import "./variables";
+
+#band {
+  padding: 15px 50px 15px 50px!important;
+
+
+  min-height: 50vh;
+  .card {
+    max-width: 250px;
+    color: black;
+    width: 100%;
+    margin: 1rem;
+    img {
+      width: auto;
+      height: 100px;
+      align-self: center;
+    }
+  }
+}
