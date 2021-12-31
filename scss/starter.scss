@@ -39,8 +39,11 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "./band";
 @import "./termine";
 @import "./footer";
+@import "./impressum";
+@import "./datenschutz";
+@import "./referenzen";
 
 @font-face {
   font-family: "comic";
-  src:  url("./fonts/LadylikeBB.ttf") format("truetype");
+  src: url("./fonts/LadylikeBB.ttf") format("truetype");
 }
